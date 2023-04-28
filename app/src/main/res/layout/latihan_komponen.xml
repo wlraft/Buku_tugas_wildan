@@ -6,8 +6,8 @@
 
 
     <ImageView
-        android:layout_width="140dp"
-        android:layout_height="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/himti"
         android:id="@+id/logo"
         android:layout_centerHorizontal="true"
@@ -31,7 +31,7 @@
         android:textSize="20sp"
         android:id="@+id/txt2"
         android:layout_below="@id/txt1"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="16dp"/>
 
     <EditText
@@ -42,7 +42,7 @@
         android:textSize="20sp"
         android:id="@+id/txt3"
         android:layout_below="@id/txt2"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="12dp"/>
 
     <EditText
@@ -53,7 +53,7 @@
         android:textSize="20sp"
         android:id="@+id/txt4"
         android:layout_below="@id/txt3"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="12dp"/>
 
 
@@ -166,6 +166,8 @@
         android:fontFamily="@font/poppins"
         android:layout_below="@id/spin2"
         android:background="@drawable/shape"/>
+
+
 
 
 
