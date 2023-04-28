@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn1"
-        android:text="button 1"
+        android:text="@string/button_1_text"
         android:textSize="15sp"/>
 
     <Button
@@ -17,7 +18,7 @@
         android:id="@+id/btn2"
         android:layout_below="@id/btn1"
         android:layout_centerHorizontal="true"
-        android:text="button 2"
+        android:text="@string/button_2_text"
         android:textSize="15sp"/>
 
     <Button
@@ -25,15 +26,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn3"
         android:layout_above="@id/btn2"
-        android:layout_toRightOf="@id/btn2"
-        android:text="button 3"
+        android:layout_toEndOf="@id/btn2"
+        android:text="@string/button_3_text"
         android:textSize="15sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn4"
-        android:text="button 4"
+        android:text="@string/button_4_text"
         android:textSize="15sp"
         android:layout_centerVertical="true"/>
 
@@ -41,14 +42,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn5"
-        android:text="button 5"
+        android:text="@string/button_5_text"
         android:textSize="15sp"
         android:layout_centerInParent="true"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button 6"
+        android:text="@string/button_6_text"
         android:textSize="15sp"
         android:layout_above="@id/btn5"
         android:layout_alignParentEnd="true"/>
@@ -57,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn7"
-        android:text="button 7"
+        android:text="@string/button_7_text"
         android:textSize="15sp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"/>
@@ -65,23 +66,23 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button 8"
+        android:text="@string/button_8_text"
         android:textSize="15sp"
-        android:layout_toLeftOf="@id/btn7"
+        android:layout_toStartOf="@id/btn7"
         android:layout_alignParentBottom="true"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn9"
-        android:text="button 9"
+        android:text="@string/button_9_text"
         android:textSize="15sp"
         android:layout_alignParentBottom="true"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button 10"
+        android:text="@string/button_10_text"
         android:textSize="15sp"
         android:layout_above="@id/btn9"/>
 

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Buku_tugas_wildan</string>
+    <string name="button_1_text">Button 1</string>
+    <string name="button_2_text">Button 2</string>
+    <string name="button_3_text">Button 3</string>
+    <string name="button_4_text">Button 4</string>
+    <string name="button_5_text">Button 5</string>
+    <string name="button_6_text">Button 6</string>
+    <string name="button_7_text">Button 7</string>
+    <string name="button_8_text">Button 8</string>
+    <string name="button_9_text">Button 9</string>
+    <string name="button_10_text">Button 10</string>
 </resources>
